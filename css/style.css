@@ -152,6 +152,7 @@
 .bottom_header_list {
     padding: 18px 24px;
     border: 1px solid #05BCCA;
+    transition: background 0.2s linear;
 }
 .bottom_header_list:active {
     background: #A1C3C9;
@@ -166,6 +167,7 @@
     line-height: 37px;
     /* 154.167% */
     transition: text-shadow 0.2s linear;
+    transition: color 0.2s linear
 }
 
 .bottom_header_text:hover {
