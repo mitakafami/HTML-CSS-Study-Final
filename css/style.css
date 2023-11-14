@@ -95,3 +95,16 @@
     font-weight: 700;
     line-height: 37px; /* 154.167% */
 }
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #2C4246;
+    padding: 48px 306px;
+    row-gap: 66px;
+}
+.bot_nav_frame {
+    display: flex;
+    column-gap: 223px;
+}
