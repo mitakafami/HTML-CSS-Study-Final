@@ -3,6 +3,9 @@
     width: 100%;
     margin: auto;
 }
+.overall_header {
+    position: fixed;
+}
 
 .header_top {
     display: flex;
@@ -65,10 +68,47 @@
     column-gap: 32px;
 }
 
+.header_user {
+    border-radius: 8px;
+    background-color: #05BCCA;
+}
+
+.header_user:hover {
+    cursor: pointer;
+    box-shadow: 0 0 5px rgb(126, 136, 235),
+        0 0 10px rgb(126, 136, 235),
+        0 0 15px rgb(126, 136, 235);
+}
+
+.header_user:active {
+    cursor: pointer;
+    box-shadow: 0 0 5px rgb(126, 136, 235),
+        0 0 10px rgb(126, 136, 235),
+        0 0 15px rgb(126, 136, 235),
+        0 0 20px rgb(126, 136, 235);
+}
+
 .header_cart {
     border-radius: 8px;
     border: 2px solid #05BCCA;
     padding: 8px;
+}
+
+.header_cart:hover {
+    cursor: pointer;
+    box-shadow: 0 0 5px rgb(103, 114, 216),
+        0 0 10px rgb(103, 114, 216),
+        0 0 15px rgb(103, 114, 216),
+        0 0 20px rgb(103, 114, 216);
+}
+
+.header_cart:active {
+    cursor: pointer;
+    box-shadow: 0 0 5px rgb(103, 114, 216),
+        0 0 10px rgb(103, 114, 216),
+        0 0 15px rgb(103, 114, 216),
+        0 0 20px rgb(103, 114, 216),
+        0 0 40px rgb(103, 114, 216);
 }
 
 .bottom_header {
@@ -175,6 +215,7 @@ footer {
     line-height: 24px;
     /* 150% */
 }
+
 .copyright::before {
     content: "\f1f9";
     font-family: "Font Awesome 6 Free";
