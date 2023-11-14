@@ -3,50 +3,70 @@
     width: 100%;
     margin: auto;
 }
+
 .header_top {
     display: flex;
     padding: 16px 94px;
     justify-content: space-between;
     align-items: center;
+    background: #012426;
 }
 
 .header_ul {
     display: flex;
     column-gap: 72px;
 }
+
 .header_text {
     color: #A1C3C9;
-font-family: Inter;
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: 32px; /* 133.333% */
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 133.333% */
 }
+
 .fa-guitar {
     font-size: 64px;
     color: #C46A2B;
 }
+
 .rest_of_header {
     display: flex;
     column-gap: 42px;
 }
+
 .search_bar {
     display: flex;
 }
-#search {
 
-}
 .currency_language {
     display: flex;
     column-gap: 32px;
 }
+
 #language {
     color: #05BCCA;
     outline: none;
     border: none;
+    background-color: transparent;
 }
+
 #currency {
     color: #05BCCA;
     outline: none;
     border: none;
+    background-color: transparent;
+}
+
+.buttons {
+    display: flex;
+    column-gap: 32px;
+}
+
+.header_cart {
+    border-radius: 8px;
+    border: 2px solid #05BCCA;
+    padding: 8px;
 }
