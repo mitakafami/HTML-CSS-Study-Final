@@ -2,9 +2,16 @@
     max-width: 1440px;
     width: 100%;
     margin: auto;
+    position: relative;
+    padding-top: 239.2px;
 }
 .overall_header {
+    max-width: inherit;
+    width: inherit;
     position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .header_top {
