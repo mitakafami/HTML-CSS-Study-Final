@@ -40,7 +40,24 @@
 .fa-guitar {
     font-size: 64px;
     color: #C46A2B;
+    animation: flashing 3s both;
 }
+
+@keyframes flashing {
+
+    100% {
+        text-shadow: 0 0 5px rgb(112, 10, 10),
+        0 0 10px rgb(112, 10, 10),
+        0 0 15px rgb(112, 10, 10),
+        0 0 20px rgb(112, 10, 10),
+        0 0 40px rgb(112, 10, 10),
+        0 0 80px rgb(112, 10, 10),
+        0 0 160px rgb(112, 10, 10);
+    }
+
+}
+
+
 
 .rest_of_header {
     display: flex;
