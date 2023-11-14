@@ -40,12 +40,12 @@
 .fa-guitar {
     font-size: 64px;
     color: #C46A2B;
-    animation: flashing 3s both;
+    animation: flashing 4s infinite both;
 }
 
 @keyframes flashing {
 
-    100% {
+    80% {
         text-shadow: 0 0 5px rgb(112, 10, 10),
         0 0 10px rgb(112, 10, 10),
         0 0 15px rgb(112, 10, 10),
