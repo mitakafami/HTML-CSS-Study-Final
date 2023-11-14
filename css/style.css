@@ -1,0 +1,11 @@
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+}
+.header_top {
+    display: flex;
+    padding: 16px 94px;
+    justify-content: space-between;
+    align-items: center;
+}
