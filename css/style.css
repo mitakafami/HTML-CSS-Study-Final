@@ -166,8 +166,7 @@
     font-weight: 700;
     line-height: 37px;
     /* 154.167% */
-    transition: text-shadow 0.2s linear;
-    transition: color 0.2s linear
+    transition: text-shadow 0.2s linear, color 0.2s linear;
 }
 
 .bottom_header_text:hover {
