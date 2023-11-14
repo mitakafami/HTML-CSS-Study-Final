@@ -70,3 +70,28 @@
     border: 2px solid #05BCCA;
     padding: 8px;
 }
+.bottom_header {
+    border-top: 2px solid #05BCCA;
+    background: #1A1A1A;
+    align-items: center;
+    justify-content: center;
+    padding: 36px 0;
+}
+.bottom_header_ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bottom_header_list {
+    padding: 18px 24px;
+    border: 1px solid #05BCCA;
+}
+
+.bottom_header_text {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 37px; /* 154.167% */
+}
