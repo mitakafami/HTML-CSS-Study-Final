@@ -75,6 +75,9 @@
 
 }
 
+.fa-guitar:hover {
+    animation-play-state: paused;
+}
 
 
 .rest_of_header {
@@ -272,6 +275,10 @@ footer {
     display: flex;
     flex-direction: column;
     row-gap: 8px;
+}
+
+.soc_media_icon:hover {
+    border-bottom: 3.5px dotted rgb(126, 136, 235);
 }
 
 .copyright {
