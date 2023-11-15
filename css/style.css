@@ -30,6 +30,17 @@
     column-gap: 72px;
 }
 
+.header_li {
+    transition: text-shadow 0.3s linear;
+}
+
+.header_li:hover {
+    text-shadow: 0 0 5px red,
+        0 0 10px red,
+        0 0 15px red,
+        0 0 20px red;
+}
+
 .header_text {
     color: #A1C3C9;
     font-family: Inter;
@@ -38,6 +49,10 @@
     font-weight: 400;
     line-height: 32px;
     /* 133.333% */
+}
+
+.header_text:active {
+    border-bottom: 2px solid red;
 }
 
 .fa-guitar {
