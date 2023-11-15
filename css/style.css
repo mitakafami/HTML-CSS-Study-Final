@@ -5,6 +5,7 @@
     position: relative;
     padding-top: 239.2px;
 }
+
 .overall_header {
     max-width: inherit;
     width: inherit;
@@ -22,7 +23,8 @@
     background: #012426;
 }
 
-.fa-xmark, .fa-bars {
+.fa-xmark,
+.fa-bars {
     font-size: 32px;
     color: #05BCCA;
     display: none;
@@ -68,12 +70,12 @@
 
     80% {
         text-shadow: 0 0 5px rgb(112, 10, 10),
-        0 0 10px rgb(112, 10, 10),
-        0 0 15px rgb(112, 10, 10),
-        0 0 20px rgb(112, 10, 10),
-        0 0 40px rgb(112, 10, 10),
-        0 0 80px rgb(112, 10, 10),
-        0 0 160px rgb(112, 10, 10);
+            0 0 10px rgb(112, 10, 10),
+            0 0 15px rgb(112, 10, 10),
+            0 0 20px rgb(112, 10, 10),
+            0 0 40px rgb(112, 10, 10),
+            0 0 80px rgb(112, 10, 10),
+            0 0 160px rgb(112, 10, 10);
     }
 
 }
@@ -179,6 +181,7 @@
     border: 1px solid #05BCCA;
     transition: background 0.2s linear;
 }
+
 .bottom_header_list:active {
     background: #A1C3C9;
 }
@@ -196,18 +199,83 @@
 
 .bottom_header_text:hover {
     text-shadow:
-    0 0 7px #6a91d4,
-    0 0 10px #86b5e8,
-    0 0 21px #6d94d2,
-    0 0 42px rgb(31, 115, 189),
-    0 0 82px rgb(49, 129, 163),
-    0 0 92px rgb(33, 100, 182),
-    0 0 102px rgb(42, 87, 142),
-    0 0 151px rgb(0, 38, 255);
+        0 0 7px #6a91d4,
+        0 0 10px #86b5e8,
+        0 0 21px #6d94d2,
+        0 0 42px rgb(31, 115, 189),
+        0 0 82px rgb(49, 129, 163),
+        0 0 92px rgb(33, 100, 182),
+        0 0 102px rgb(42, 87, 142),
+        0 0 151px rgb(0, 38, 255);
 }
+
 .bottom_header_text:active {
     color: #2C4246;
 }
+
+.section_1 {
+    height: 480px;
+    background-image: url(../images/main\ guitar.png);
+}
+
+.title_frame {
+    display: flex;
+    justify-content: center;
+    /* margin-top: 72px; */
+    align-items: center;
+    column-gap: 24px;
+}
+
+.section_1_title {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    /* 112.5% */
+    margin-top: 72px;
+}
+
+.section_1_title_color {
+    color: #05BCCA;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.section_1_title_arrow {
+    margin-top: 72px;
+    padding: 0px 6px;
+    border-radius: 4px;
+    background: #C46A2B;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 footer {
     display: flex;
@@ -229,6 +297,7 @@ footer {
     flex-direction: column;
     row-gap: 28px;
 }
+
 .bot_nav_card_3 {
     display: flex;
     flex-direction: column;
