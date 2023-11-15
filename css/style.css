@@ -13,6 +13,7 @@
     top: 0;
     left: 50%;
     transform: translateX(-50%);
+    z-index: 999;
 }
 
 .header_top {
@@ -122,6 +123,7 @@
 .header_user {
     border-radius: 8px;
     background-color: #05BCCA;
+    transition: 0.2s linear;
 }
 
 .header_user:hover {
@@ -132,6 +134,7 @@
 }
 
 .header_user:active {
+    transition: none;
     cursor: pointer;
     box-shadow: 0 0 5px rgb(126, 136, 235),
         0 0 10px rgb(126, 136, 235),
@@ -143,6 +146,7 @@
     border-radius: 8px;
     border: 2px solid #05BCCA;
     padding: 8px;
+    transition: 0.2s linear;
 }
 
 .header_cart:hover {
@@ -154,6 +158,7 @@
 }
 
 .header_cart:active {
+    transition: none;
     cursor: pointer;
     box-shadow: 0 0 5px rgb(103, 114, 216),
         0 0 10px rgb(103, 114, 216),
@@ -258,6 +263,7 @@
     padding: 0px 6px;
     border-radius: 4px;
     background: #C46A2B;
+    transition: 0.2s linear;
 }
 
 .section_1_title_arrow:hover {
@@ -268,6 +274,7 @@
 }
 
 .section_1_title_arrow:active {
+    transition: none;
     cursor: pointer;
     box-shadow: 0 0 5px #C46A2B,
         0 0 10px #C46A2B,
@@ -287,6 +294,7 @@
     border-radius: 4px;
     background: #C46A2B;
     border: none;
+    transition: 0.2s linear;
 }
 
 .section_1_left_right:hover {
@@ -297,6 +305,7 @@
 }
 
 .section_1_left_right:active {
+    transition: none;
     cursor: pointer;
     box-shadow: 0 0 5px #C46A2B,
         0 0 10px #C46A2B,
@@ -358,8 +367,133 @@
 .electric_guitar:hover {
     filter: brightness(1.2);
 }
+.classical_guitar:active,
+.base_guitar:active,
+.acoustic_guitar:active,
+.electric_guitar:active {
+    transition: none;
+    filter: brightness(1.5);
+}
 
+.section_3 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 64px;
+    padding: 96px 94px;
+    background: #1A1A1A;
+}
 
+.same_title {
+    color: #05BCCA;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px;
+    /* 144.444% */
+    text-align: center;
+    position: relative;
+}
+
+.same_title::before {
+    content: "";
+    width: 150px;
+    height: 2px;
+    background: #05BCCA;  
+    position: absolute;
+    bottom: -8px;
+    left: 44%;
+    z-index: 0;
+    
+  }
+
+.same_guitar_cards {
+    display: flex;
+    column-gap: 20px;
+}
+
+.same_guitar_card {
+    width: 298px;
+    padding: 8px;
+    background-color: #2C4246;
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    transition: 0.2s linear;
+}
+
+.same_guitar_card:hover {
+    cursor: pointer;
+    box-shadow: 0 0 5px #05BCCA99,
+        0 0 10px #05BCCA99,
+        0 0 15px #05BCCA99,
+        0 0 40px #05BCCA99;
+}
+
+.same_guitar_card:active {
+    transition: none;
+    box-shadow: 0 0 5px #05BCCA99,
+        0 0 10px #05BCCA99,
+        0 0 15px #05BCCA99,
+        0 0 40px #05BCCA99,
+        0 0 50px #05BCCA99;
+}
+
+.same_guitar_text {
+    color: #D9D9D9;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    /* line-height: 27px; */
+    /* 168.75% */
+    /* margin-top: 16px; */
+    /* margin-bottom: 16px; */
+}
+
+.review_price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.review {
+    display: flex;
+    column-gap: 8px;
+}
+
+.five_stars {
+    display: flex;
+    column-gap: 4px;
+}
+
+.same_review {
+    color: #A1C3C9;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    /* 125% */
+}
+
+.same_price {
+    color: #05BCCA;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    /* line-height: 27px; */
+    /* 168.75% */
+}
+
+.same_price::before {
+    content: "\24";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    margin-right: 4px;
+    color: #05BCCA;
+}
 
 
 
@@ -420,9 +554,21 @@ footer {
     line-height: 32px;
     /* 133.333% */
     /* margin-bottom: 28px; */
-    border-bottom: 2px solid #D9D9D9;
+    /* border-bottom: 2px solid #D9D9D9; */
     /* border-width: 8px; */
+    position: relative;
 }
+
+.bot_nav_title::before {
+    content: "";
+    width: 80px;
+    height: 2px;
+    background: #D9D9D9;  
+    position: absolute;
+    bottom: -8px;
+    left: 0%;
+    
+  }
 
 .bot_nav_ul {
     display: flex;
