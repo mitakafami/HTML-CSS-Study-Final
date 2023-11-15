@@ -216,6 +216,12 @@
 .section_1 {
     height: 480px;
     background-image: url(../images/main\ guitar.png);
+    background-size: cover;
+    background-position: 50%;
+    padding-inline: 6.52%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 96px;
 }
 
 .title_frame {
@@ -224,6 +230,7 @@
     /* margin-top: 72px; */
     align-items: center;
     column-gap: 24px;
+    /* padding-inline: 0 94px; */
 }
 
 .section_1_title {
@@ -251,6 +258,49 @@
     padding: 0px 6px;
     border-radius: 4px;
     background: #C46A2B;
+}
+.section_1_title_arrow:hover {
+    cursor: pointer;
+    box-shadow: 0 0 5px #C46A2B,
+        0 0 10px #C46A2B,
+        0 0 15px #C46A2B;
+}
+
+.section_1_title_arrow:active {
+    cursor: pointer;
+    box-shadow: 0 0 5px #C46A2B,
+        0 0 10px #C46A2B,
+        0 0 15px #C46A2B,
+        0 0 20px #C46A2B,
+        0 0 40px #C46A2B;
+}
+
+.section_1_arrows {
+    display: flex;
+    /* margin-inline: 94px; */
+    justify-content: space-between;
+}
+
+.section_1_left_right {
+    padding: 20px;
+    border-radius: 4px;
+    background: #C46A2B;
+    border: none;
+}
+.section_1_left_right:hover {
+    cursor: pointer;
+    box-shadow: 0 0 5px #C46A2B,
+        0 0 10px #C46A2B,
+        0 0 15px #C46A2B;
+}
+
+.section_1_left_right:active {
+    cursor: pointer;
+    box-shadow: 0 0 5px #C46A2B,
+        0 0 10px #C46A2B,
+        0 0 15px #C46A2B,
+        0 0 20px #C46A2B,
+        0 0 40px #C46A2B;
 }
 
 
