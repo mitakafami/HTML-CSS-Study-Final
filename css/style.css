@@ -259,6 +259,7 @@
     border-radius: 4px;
     background: #C46A2B;
 }
+
 .section_1_title_arrow:hover {
     cursor: pointer;
     box-shadow: 0 0 5px #C46A2B,
@@ -287,6 +288,7 @@
     background: #C46A2B;
     border: none;
 }
+
 .section_1_left_right:hover {
     cursor: pointer;
     box-shadow: 0 0 5px #C46A2B,
@@ -301,6 +303,60 @@
         0 0 15px #C46A2B,
         0 0 20px #C46A2B,
         0 0 40px #C46A2B;
+}
+
+.section_2 {
+    padding: 96px 21.25%;
+    background: #012426;
+}
+
+.four_guitars {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.upper_two,
+.down_two {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.classical_guitar,
+.base_guitar {
+    height: 240px;
+    width: 404px;
+    background-image: url("../images/classical\ guitar.png");
+}
+
+.acoustic_guitar,
+.electric_guitar {
+    height: 240px;
+    background-image: url("../images/acoustic\ guitar.png");
+}
+
+.classical_guitar,
+.base_guitar,
+.acoustic_guitar,
+.electric_guitar {
+    color: #F5F5F5;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 37px;
+    /* 154.167% */
+    padding: 16px;
+    transition: 0.2s linear;
+}
+
+.classical_guitar:hover,
+.base_guitar:hover,
+.acoustic_guitar:hover,
+.electric_guitar:hover {
+    filter: brightness(1.2);
 }
 
 
