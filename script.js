@@ -12,7 +12,7 @@ burger.addEventListener("click", () => {
 
 xMark.addEventListener("click", () => {
     mobileMenu.classList.remove("show");
-    currencyLanguage.classList.remove("show")
+    currencyLanguage.classList.remove("show_currency")
     burger.style.display = "block";
     xMark.style.display = "none";
   }

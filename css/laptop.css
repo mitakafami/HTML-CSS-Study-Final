@@ -4,7 +4,7 @@
         position: fixed;
         top: 96px;
         left: -100%;
-        transition: .5s linear;
+        transition: .1s linear;
 
         width: 200px;
         height: 221px;
@@ -32,7 +32,7 @@
         position: fixed;
         top: 250px;
         left: -100%;
-        transition: .5s linear;
+        transition: .1s linear;
         column-gap: 16px;
     }
 
