@@ -16,10 +16,13 @@
 
 .header_top {
     display: flex;
-    padding: 16px 94px;
+    padding: 16px 6.52%;
     justify-content: space-between;
     align-items: center;
     background: #012426;
+}
+.burger {
+    display: none;
 }
 
 .header_ul {
@@ -190,7 +193,7 @@ footer {
     justify-content: center;
     align-items: center;
     background: #2C4246;
-    padding: 48px 306px;
+    padding: 48px 21.25%;
     row-gap: 66px;
 }
 
@@ -203,6 +206,12 @@ footer {
     display: flex;
     flex-direction: column;
     row-gap: 28px;
+}
+.bot_nav_card_3 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 28px;
+    width: 173px;
 }
 
 .bot_nav_title {
