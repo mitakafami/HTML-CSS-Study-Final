@@ -21,7 +21,10 @@
     align-items: center;
     background: #012426;
 }
-.burger {
+
+.fa-xmark, .fa-bars {
+    font-size: 32px;
+    color: #05BCCA;
     display: none;
 }
 
@@ -107,6 +110,7 @@
     border: none;
     background-color: transparent;
 }
+
 
 .buttons {
     display: flex;
