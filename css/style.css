@@ -745,10 +745,31 @@
     border-bottom: 7px dotted;
     border-bottom-color: transparent;
     /* transition-delay: 0.4s linear; */
+    position: relative;
 }
 
-.section_4_down_card_text:active {
-    border-bottom: 7px dotted red
+.section_4_down_card_text:before {
+    content: "";
+    width: 0;
+    height: 2px;
+    background: red;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    transition: all 0.1s ease-in-out;
+}
+.section_4_down_card_text:active:before {
+    content: "";
+    width: 75px;
+    height: 2px;
+    background: red;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+}
+
+.section_4_down_card_text:hover {
+    text-shadow: 1px 1px 1px black;
 }
 
 
