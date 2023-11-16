@@ -614,6 +614,12 @@
     line-height: 19px;
     /* 118.75% */
 }
+.section_4_down_card_text:hover {
+    border-bottom: 5px dotted red;
+}
+.section_4_down_card_text:active {
+    border-bottom: 5px solid red;
+}
 .section_4_down_card_arrow {
     padding: 0px 6px;
     border-radius: 4px;
@@ -666,6 +672,8 @@ footer {
     background: #2C4246;
     padding: 48px 21.25%;
     row-gap: 66px;
+    position: relative;
+    z-index: 3;
 }
 
 .bot_nav_frame {
