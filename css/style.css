@@ -799,7 +799,12 @@
 
 
 
-
+.section_5 {
+    height: 320px;
+    background-image: url(../images/subscribe_guitar.png);
+    background-size: cover;
+    background-position: 50%;
+}
 
 
 
