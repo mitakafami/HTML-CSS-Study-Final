@@ -75,6 +75,7 @@
     left: 0;
     transition: all 0.1s ease-in-out;
 }
+
 .header_text_home:active:before {
     content: "";
     width: 60px;
@@ -84,6 +85,7 @@
     bottom: -10px;
     left: 0;
 }
+
 .header_text_catalogue:active:before {
     content: "";
     width: 76px;
@@ -93,6 +95,7 @@
     bottom: -10px;
     left: 0;
 }
+
 .header_text_contact:active:before {
     content: "";
     width: 110px;
@@ -683,35 +686,43 @@
     transition-delay: 0.3s;
     opacity: 1;
 }
+
 .news_card_1:hover .section_4_card_transparency {
     height: 440px;
 }
+
 .news_card_1:hover .section_4_down_card {
     transition: all 0.2s linear;
     transition-delay: 0.3s;
     opacity: 1;
 }
+
 .news_card_2:hover .section_4_card_text {
     transition: all 0.2s linear;
     transition-delay: 0.3s;
     opacity: 1;
 }
+
 .news_card_2:hover .section_4_card_transparency {
     height: 440px;
 }
+
 .news_card_2:hover .section_4_down_card {
     transition: all 0.2s linear;
     transition-delay: 0.3s;
     opacity: 1;
 }
+
 .news_card_3:hover .section_4_card_text {
     transition: all 0.2s linear;
     transition-delay: 0.3s;
     opacity: 1;
 }
+
 .news_card_3:hover .section_4_card_transparency {
     height: 440px;
 }
+
 .news_card_3:hover .section_4_down_card {
     transition: all 0.2s linear;
     transition-delay: 0.3s;
@@ -758,6 +769,7 @@
     left: 0;
     transition: all 0.1s ease-in-out;
 }
+
 .section_4_down_card_text:active:before {
     content: "";
     width: 75px;
@@ -804,6 +816,47 @@
     background-image: url(../images/subscribe_guitar.png);
     background-size: cover;
     background-position: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+
+.subscribe_label {
+    color: #05BCCA;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19px;
+    /* 59.375% */
+    text-align: center;
+}
+.email_bar {
+    display: flex;
+    justify-content: center;
+}
+#email {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 480px;
+    height: 48px;
+    display: flex;
+height: 48px;
+padding-left: 0px;
+justify-content: flex-end;
+align-items: center;
+gap: 240px;
+
+border-radius: 8px;
+border: 1px solid #F5F5F5;
+
+background: rgba(44, 66, 70, 0.80);
 }
 
 
@@ -896,6 +949,7 @@ footer {
     /* 150% */
     position: relative;
 }
+
 .bot_nav_text:before,
 .bot_nav_text_jackson:before,
 .bot_nav_text_big:before,
@@ -909,6 +963,7 @@ footer {
     left: 0;
     transition: all 0.1s ease-in-out;
 }
+
 .bot_nav_text:hover:before {
     content: "";
     width: 50px;
@@ -918,6 +973,7 @@ footer {
     bottom: -5px;
     left: 0;
 }
+
 .bot_nav_text_jackson:hover:before {
     content: "";
     width: 57px;
@@ -927,6 +983,7 @@ footer {
     bottom: -5px;
     left: 0;
 }
+
 .bot_nav_text_big:hover:before {
     content: "";
     width: 160px;
@@ -936,6 +993,7 @@ footer {
     bottom: -5px;
     left: 0;
 }
+
 .bot_nav_text_small:hover:before {
     content: "";
     width: 110px;
@@ -969,6 +1027,7 @@ footer {
     left: 0;
     transition: all 0.1s ease-in-out;
 }
+
 .bot_nav_text_2:hover:before {
     content: "";
     width: 60px;
@@ -1015,6 +1074,7 @@ footer {
     left: 40%;
     transition: all 0.1s ease-in-out;
 }
+
 .soc_media_icon:hover:before {
     content: "";
     width: 35px;
