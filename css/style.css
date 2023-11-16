@@ -507,16 +507,62 @@
 
 
 
-.section_4 {}
+.section_4 {
+    padding: 96px 94px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 64px;
+    background-color: #012426;
+}
 
-.section_4_title {}
+.section_4_title {
+    color: #C46A2B;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px;
+    /* 144.444% */
+    text-align: center;
+    position: relative;
+}
 
-.news_cards {}
+.section_4_title::before {
+    content: "";
+    width: 84px;
+    height: 2px;
+    background: #C46A2B;
+    position: absolute;
+    bottom: -8px;
+    left: 46.65%;
 
-.news_card {
+}
+
+.news_cards {
+    display: flex;
+    column-gap: 20px;
+}
+
+.news_card_1 {
     width: 404px;
     height: 440px;
     background-image: url("../images/news\ guitar\ 1.png");
+    background-color: #05BCCA99;
+    position: relative;
+}
+
+.news_card_2 {
+    width: 404px;
+    height: 440px;
+    background-image: url("../images/news\ card\ 2.png");
+    background-color: #05BCCA99;
+    position: relative;
+}
+
+.news_card_3 {
+    width: 404px;
+    height: 440px;
+    background-image: url("../images/news\ card\ 3.png");
     background-color: #05BCCA99;
     position: relative;
 }
@@ -589,7 +635,8 @@
 }
 
 .section_4_card_transparency:hover .section_4_card_text {
-    transition: 2s linear;
+    /* transition: all 2s linear; */
+    opacity: 1;
     display: block;
 }
 
@@ -600,7 +647,6 @@
 }
 
 .section_4_card_transparency:hover .section_4_down_card {
-    transition: 2s linear;
     display: flex;
     column-gap: 16px;
 }
@@ -614,12 +660,15 @@
     line-height: 19px;
     /* 118.75% */
 }
+
 .section_4_down_card_text:hover {
     border-bottom: 5px dotted red;
 }
+
 .section_4_down_card_text:active {
     border-bottom: 5px solid red;
 }
+
 .section_4_down_card_arrow {
     padding: 0px 6px;
     border-radius: 4px;
@@ -751,8 +800,34 @@ footer {
     row-gap: 8px;
 }
 
-.soc_media_icon:hover {
+/* .soc_media_icon:hover,
+.bot_nav_text:hover,
+.bot_nav_text_2:hover {
     border-bottom: 3.5px dotted rgb(126, 136, 235);
+    margin-bottom: -3px;
+} */
+.soc_media_icon {
+    position: relative;
+}
+
+.soc_media_icon:before {
+    content: "";
+    width: 0;
+    height: 2px;
+    background: rgb(126, 136, 235);
+    position: absolute;
+    bottom: -5px;
+    left: 40%;
+    transition: all 0.1s ease-in-out;
+}
+.soc_media_icon:hover:before {
+    content: "";
+    width: 35px;
+    height: 2px;
+    background: rgb(126, 136, 235);
+    position: absolute;
+    bottom: -5px;
+    left: -5%;
 }
 
 .copyright {
