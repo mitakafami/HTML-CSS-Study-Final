@@ -841,6 +841,11 @@ form {
 .email_bar {
     display: flex;
     justify-content: center;
+    position: relative;
+    border-radius: 8px;
+    border: 1px solid #F5F5F5;
+
+    background: rgba(44, 66, 70, 0.80);
 }
 
 #email {
@@ -851,15 +856,10 @@ form {
     height: 48px;
     display: flex;
     height: 48px;
-    padding-left: 0px;
+    padding-left: 8px;
     justify-content: flex-end;
     align-items: center;
     gap: 240px;
-
-    border-radius: 8px;
-    border: 1px solid #F5F5F5;
-
-    background: rgba(44, 66, 70, 0.80);
 }
 
 #email::placeholder {
@@ -873,6 +873,55 @@ form {
     padding-left: 8px;
 }
 
+#subscribe {
+    outline: none;
+    border: none;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19px;
+    /* 118.75% */
+    display: flex;
+    height: 48px;
+    padding: 15px 14px 14px 14px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 8px 8px 0px;
+    background: #05BCCA;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+    transition: 0.2s linear;
+}
+
+#subscribe:hover {
+    /* box-shadow: 0 2px 2px rgb(126, 136, 235),
+    1px -2px 2px rgb(126, 136, 235),
+    1px 0 1px rgb(126, 136, 235); */
+}
+
+#subscribe:active {
+    /* transition: none; */
+    /* color: rgb(126, 136, 235); */
+    /* text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff; */
+    box-shadow: 0 2px 2px rgb(126, 136, 235),
+    1px -2px 2px rgb(126, 136, 235),
+    1px 0 1px rgb(126, 136, 235),
+
+    1.5px 2px 5px rgb(126, 136, 235),
+    1.5px -2px 5px rgb(126, 136, 235),
+    1.5px 0 5px rgb(126, 136, 235);
+}
+
+input, select, textarea{
+    color: #A1C3C9;
+}
+
+textarea:focus, input:focus {
+    color: #A1C3C9;
+}
 
 
 
