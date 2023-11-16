@@ -701,15 +701,15 @@
     font-weight: 700;
     line-height: 19px;
     /* 118.75% */
-}
-
-.section_4_down_card_text:hover {
-    border-bottom: 5px dotted red;
+    transition: 0.1s linear;
+    border-bottom: 7px dotted;
+    border-bottom-color: transparent;
 }
 
 .section_4_down_card_text:active {
-    border-bottom: 5px solid red;
+    border-bottom: 7px dotted red
 }
+
 
 .section_4_down_card_arrow {
     padding: 0px 6px;
