@@ -630,16 +630,16 @@
     backdrop-filter: blur(2px);
     position: absolute;
     bottom: 0;
-    transition: 2s linear;
+    transition: 0.35s linear;
 }
 
-.section_4_card_transparency:hover {
+/* .section_4_card_transparency:hover {
     height: 440px;
-}
+} */
 
-.section_4_card_transparency:hover {
+/* .section_4_card_transparency:hover {
     height: 440px;
-}
+} */
 
 
 .section_4_card_date {
@@ -663,8 +663,9 @@
 }
 
 .section_4_card_text {
-    display: none;
-    transition: 2s linear;
+    opacity: 0;
+    transition: 0.2s linear;
+    transition-delay: 0.1s;
     width: 344px;
     color: #D9D9D9;
     font-family: Inter;
@@ -676,21 +677,60 @@
     margin-left: 24px;
 }
 
-.section_4_card_transparency:hover .section_4_card_text {
-    /* transition: all 2s linear; */
+
+.news_card_1:hover .section_4_card_text {
+    transition: all 0.2s linear;
+    transition-delay: 0.3s;
     opacity: 1;
-    display: block;
+}
+.news_card_1:hover .section_4_card_transparency {
+    height: 440px;
+}
+.news_card_1:hover .section_4_down_card {
+    transition: all 0.2s linear;
+    transition-delay: 0.3s;
+    opacity: 1;
+}
+.news_card_2:hover .section_4_card_text {
+    transition: all 0.2s linear;
+    transition-delay: 0.3s;
+    opacity: 1;
+}
+.news_card_2:hover .section_4_card_transparency {
+    height: 440px;
+}
+.news_card_2:hover .section_4_down_card {
+    transition: all 0.2s linear;
+    transition-delay: 0.3s;
+    opacity: 1;
+}
+.news_card_3:hover .section_4_card_text {
+    transition: all 0.2s linear;
+    transition-delay: 0.3s;
+    opacity: 1;
+}
+.news_card_3:hover .section_4_card_transparency {
+    height: 440px;
+}
+.news_card_3:hover .section_4_down_card {
+    transition: all 0.2s linear;
+    transition-delay: 0.3s;
+    opacity: 1;
 }
 
 .section_4_down_card {
-    display: none;
+    display: flex;
+    column-gap: 16px;
+    opacity: 0;
     margin-top: 209px;
     margin-left: 218px;
 }
 
 .section_4_card_transparency:hover .section_4_down_card {
-    display: flex;
-    column-gap: 16px;
+    /* transition-delay: 1s linear; */
+    /* display: flex; */
+    /* opacity: 1; */
+    /* column-gap: 16px; */
 }
 
 .section_4_down_card_text {
@@ -704,6 +744,7 @@
     transition: 0.1s linear;
     border-bottom: 7px dotted;
     border-bottom-color: transparent;
+    /* transition-delay: 0.4s linear; */
 }
 
 .section_4_down_card_text:active {
