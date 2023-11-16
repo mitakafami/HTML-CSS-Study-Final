@@ -367,6 +367,7 @@
 .electric_guitar:hover {
     filter: brightness(1.2);
 }
+
 .classical_guitar:active,
 .base_guitar:active,
 .acoustic_guitar:active,
@@ -399,13 +400,13 @@
     content: "";
     width: 150px;
     height: 2px;
-    background: #05BCCA;  
+    background: #05BCCA;
     position: absolute;
     bottom: -8px;
     left: 44%;
     z-index: 0;
-    
-  }
+
+}
 
 .same_guitar_cards {
     display: flex;
@@ -506,6 +507,146 @@
 
 
 
+.section_4 {}
+
+.section_4_title {}
+
+.news_cards {}
+
+.news_card {
+    width: 404px;
+    height: 440px;
+    background-image: url("../images/news\ guitar\ 1.png");
+    background-color: #05BCCA99;
+    position: relative;
+}
+
+.section_4_upper_card {}
+
+.section_4_date_title {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    margin: 24px;
+}
+
+
+.section_4_card_transparency {
+    width: 404px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+    background: rgba(5, 188, 202, 0.60);
+    ;
+    backdrop-filter: blur(2px);
+    position: absolute;
+    bottom: 0;
+    transition: 0.2s linear;
+}
+
+.section_4_card_transparency:hover {
+    height: 440px;
+}
+
+.section_4_card_transparency:hover {
+    height: 440px;
+}
+
+
+.section_4_card_date {
+    color: #D9D9D9;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19px;
+    /* 118.75% */
+}
+
+.section_4_card_title {
+    color: #D9D9D9;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19px;
+    /* 118.75% */
+}
+
+.section_4_card_text {
+    display: none;
+    transition: 2s linear;
+    width: 344px;
+    color: #D9D9D9;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    /* 118.75% */
+    margin-left: 24px;
+}
+
+.section_4_card_transparency:hover .section_4_card_text {
+    transition: 2s linear;
+    display: block;
+}
+
+.section_4_down_card {
+    display: none;
+    margin-top: 209px;
+    margin-left: 218px;
+}
+
+.section_4_card_transparency:hover .section_4_down_card {
+    transition: 2s linear;
+    display: flex;
+    column-gap: 16px;
+}
+
+.section_4_down_card_text {
+    color: #D9D9D9;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19px;
+    /* 118.75% */
+}
+.section_4_down_card_arrow {
+    padding: 0px 6px;
+    border-radius: 4px;
+    background: #C46A2B;
+    transition: 0.2s linear;
+}
+
+.section_4_down_card_arrow:hover {
+    cursor: pointer;
+    box-shadow: 0 0 5px #C46A2B,
+        0 0 10px #C46A2B,
+        0 0 15px #C46A2B;
+}
+
+.section_4_down_card_arrow:active {
+    transition: none;
+    cursor: pointer;
+    box-shadow: 0 0 5px #C46A2B,
+        0 0 10px #C46A2B,
+        0 0 15px #C46A2B,
+        0 0 20px #C46A2B,
+        0 0 40px #C46A2B;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -563,12 +704,12 @@ footer {
     content: "";
     width: 80px;
     height: 2px;
-    background: #D9D9D9;  
+    background: #D9D9D9;
     position: absolute;
     bottom: -8px;
     left: 0%;
-    
-  }
+
+}
 
 .bot_nav_ul {
     display: flex;
