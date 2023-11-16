@@ -184,7 +184,7 @@
 .bottom_header_list {
     padding: 18px 24px;
     border: 1px solid #05BCCA;
-    transition: background 0.2s linear;
+    /* transition: background 0.2s linear; */
 }
 
 .bottom_header_list:active {
