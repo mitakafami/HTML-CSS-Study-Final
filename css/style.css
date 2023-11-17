@@ -551,23 +551,106 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
-.section_4 {
+.sec_4 {
     padding: 96px 94px;
+    background-color: #012426;
     display: flex;
     flex-direction: column;
     row-gap: 64px;
-    background-color: #012426;
+
 }
+.cards {
+    display: flex;
+    column-gap: 20px;
+    position: relative;
+}
+.frame {
+    width: 404px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+    background: rgba(5, 188, 202, 0.60);
+    ;
+    backdrop-filter: blur(2px);
+    position: absolute;
+    bottom: 0;
+    transition: 0.35s linear;
+}
+.card_1:hover .frame,
+.card_2:hover .frame,
+.card_3:hover .frame {
+    height: 443px;
+}
+
+/* text hover  */
+
+.card_1:hover .section_4_card_text {
+    transition: all 0.2s linear;
+    transition-delay: 0.3s;
+    opacity: 1;
+}
+
+.card_1:hover .section_4_card_transparency {
+    height: 440px;
+}
+
+.card_1:hover .section_4_down_card {
+    transition: all 0.2s linear;
+    transition-delay: 0.3s;
+    opacity: 1;
+}
+
+.card_2:hover .section_4_card_text {
+    transition: all 0.2s linear;
+    transition-delay: 0.3s;
+    opacity: 1;
+}
+
+.card_2:hover .section_4_card_transparency {
+    height: 440px;
+}
+
+.card_2:hover .section_4_down_card {
+    transition: all 0.2s linear;
+    transition-delay: 0.3s;
+    opacity: 1;
+}
+
+.card_3:hover .section_4_card_text {
+    transition: all 0.2s linear;
+    transition-delay: 0.3s;
+    opacity: 1;
+}
+
+.card_3:hover .section_4_card_transparency {
+    height: 440px;
+}
+
+.card_3:hover .section_4_down_card {
+    transition: all 0.2s linear;
+    transition-delay: 0.3s;
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* text hover end  */
+
+
+
+
+
+
+
 
 
 
@@ -594,44 +677,7 @@
 
 }
 
-.news_cards {
-    display: flex;
-    column-gap: 20px;
-    /* position: relative; */
-}
 
-.news_card_1 {
-    width: 404px;
-    height: 440px;
-    background-image: url("../images/news\ guitar\ 1.png");
-    background-color: #05BCCA99;
-    background-size: cover;
-    background-position: 50%;
-    /* background-attachment: inherit; */
-    position: relative;
-}
-
-.news_card_2 {
-    width: 404px;
-    height: 440px;
-    background-image: url("../images/news\ card\ 2.png");
-    background-color: #05BCCA99;
-    background-size: cover;
-    background-position: 50%;
-    /* background-attachment: inherit */
-    position: relative;
-}
-
-.news_card_3 {
-    width: 404px;
-    height: 440px;
-    background-image: url("../images/news\ card\ 3.png");
-    background-color: #05BCCA99;
-    background-size: cover;
-    background-position: 50%;
-    /* background-attachment: inherit; */
-    position: relative;
-}
 
 .section_4_upper_card {
 }
@@ -643,28 +689,6 @@
     margin: 24px;
 }
 
-.section_4_card_transparency {
-    width: 404px;
-    height: 100px;
-    display: flex;
-    flex-direction: column;
-    row-gap: 24px;
-    background: rgba(5, 188, 202, 0.60);
-    ;
-    backdrop-filter: blur(2px);
-    position: absolute;
-    bottom: 0;
-    transition: 0.35s linear;
-    /* background-color: greenyellow; */
-}
-
-/* .section_4_card_transparency:hover {
-    height: 440px;
-} */
-
-/* .section_4_card_transparency:hover {
-    height: 440px;
-} */
 
 
 .section_4_card_date {
@@ -703,53 +727,6 @@
 }
 
 
-.news_card_1:hover .section_4_card_text {
-    transition: all 0.2s linear;
-    transition-delay: 0.3s;
-    opacity: 1;
-}
-
-.news_card_1:hover .section_4_card_transparency {
-    height: 440px;
-}
-
-.news_card_1:hover .section_4_down_card {
-    transition: all 0.2s linear;
-    transition-delay: 0.3s;
-    opacity: 1;
-}
-
-.news_card_2:hover .section_4_card_text {
-    transition: all 0.2s linear;
-    transition-delay: 0.3s;
-    opacity: 1;
-}
-
-.news_card_2:hover .section_4_card_transparency {
-    height: 440px;
-}
-
-.news_card_2:hover .section_4_down_card {
-    transition: all 0.2s linear;
-    transition-delay: 0.3s;
-    opacity: 1;
-}
-
-.news_card_3:hover .section_4_card_text {
-    transition: all 0.2s linear;
-    transition-delay: 0.3s;
-    opacity: 1;
-}
-
-.news_card_3:hover .section_4_card_transparency {
-    height: 440px;
-}
-
-.news_card_3:hover .section_4_down_card {
-    transition: all 0.2s linear;
-    transition-delay: 0.3s;
-    opacity: 1;
-}
 
 .section_4_down_card {
     display: flex;
@@ -759,12 +736,6 @@
     margin-left: 218px;
 }
 
-.section_4_card_transparency:hover .section_4_down_card {
-    /* transition-delay: 1s linear; */
-    /* display: flex; */
-    /* opacity: 1; */
-    /* column-gap: 16px; */
-}
 
 .section_4_down_card_text {
     color: #D9D9D9;

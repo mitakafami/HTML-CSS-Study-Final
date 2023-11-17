@@ -5,6 +5,11 @@
         overflow-x: auto;
         overflow-y: hidden;
     }
+
+    .cards {
+        overflow-x: auto;
+        overflow-y: hidden;
+    }
 }
 
 @media (max-width: 1025px) {
