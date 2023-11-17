@@ -71,4 +71,17 @@
     .section_3, .section_4 {
         padding: 96px 32px;
     }
+
+    .same_title::before {
+        left: 42%;
+    
+    }
+
+    .section_4_title::before {
+        left: 45%;
+    }
+
+    .bot_nav_text_2_small:hover:before {
+        width: 31px;
+    }
 }

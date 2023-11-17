@@ -1,1 +1,133 @@
-@media (max-width: 375px) {}
+@media (max-width: 375px) {
+
+    .container {
+        padding-top: 187.2px;
+    }
+
+    .fa-guitar {
+        font-size: 40px;
+        color: #C46A2B;
+        animation: flashing 4s infinite both;
+    }
+
+    .search_icon {
+        width: 32px;
+        height: 32px;
+    }
+
+    .header_user {
+        width: 32px;
+        height: 32px;
+    }
+
+    .header_cart {
+        width: 32px;
+        height: 32px;
+
+    }
+
+    .bottom_header_list {
+        padding: 8px;
+    }
+
+    .bottom_header_text {
+        color: #FFF;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+        /* 150% */
+    }
+
+    .section_1_left_right {
+        display: none;
+    }
+
+    .title_frame {
+        column-gap: 16px;
+    }
+
+    .section_1_title {
+        color: #FFF;
+        font-family: Inter;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;
+        /* 133.333% */
+        margin-top: 72px;
+    }
+
+    .section_1_title_color {
+        color: #05BCCA;
+        font-family: Inter;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;
+    }
+
+
+
+
+    .classical_guitar,
+    .base_guitar {
+        width: 170px;
+        height: 160px;
+    }
+
+    .acoustic_guitar,
+    .electric_guitar {
+        height: 160px;
+    }
+
+    #email {
+
+        width: 320px;
+        height: 48px;
+    }
+
+    .section_2 {
+        padding: 32px 8px;
+        background: #012426;
+    }
+
+    .section_3 {
+        display: flex;
+        flex-direction: column;
+        row-gap: 64px;
+        padding: 32px 8px;
+        background-color: #1A1A1A;
+    }
+
+    .sec_4 {
+        padding: 32px 8px;
+        background-color: #012426;
+        display: flex;
+        flex-direction: column;
+        row-gap: 64px;
+
+    }
+
+    .same_title::before {
+        left: 28%;
+
+    }
+
+    .section_4_title::before {
+        left: 38%;
+    }
+
+    .subscribe_label {
+        color: #05BCCA;
+        font-family: Inter;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 32px;
+        /* 133.333% */
+    }
+
+
+}
