@@ -915,7 +915,20 @@ textarea:focus, input:focus {
 
 
 
+/* catalog */
 
+.section_catalog {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    padding: 96px 94px;
+    background-color: #012426;;
+
+}
+.catalog_guitars {
+    display: flex;
+    column-gap: 20px;
+}
 
 
 
