@@ -178,4 +178,35 @@
 }
 
 
+.bot_nav_frame {
+    flex-direction: column;
+    row-gap: 40px;
+    text-align: center;
+}
+
+.bot_nav_title::before {
+left: 26.5%;
+}
+
+.bot_nav_text:hover:before {
+    width: 46px;
+}
+
+.bot_nav_text_jackson:hover:before {
+    width: 53px;
+}
+
+.bot_nav_text_big:hover:before {
+    width: 175px;
+}
+
+.bot_nav_text_small:hover:before {
+    width: 141px;
+    left: 10%;
+}
+
+.bot_nav_text_2:hover:before {
+    width: 57px;
+}
+
 }
