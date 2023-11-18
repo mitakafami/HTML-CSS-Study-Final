@@ -1372,6 +1372,28 @@ input:focus {
         0 0 40px #C46A2B;
 }
 
+.map_social {
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+}
+.social_media_contact_section {
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 16px;
+}
+
+.social_media_icon_contact_section:hover {
+    filter: brightness(1.2);
+}
+
+.social_media_icon_contact_section:active {
+    transition: none;
+    filter: brightness(1.5);
+}
+
+
+
 
 
 
