@@ -1282,6 +1282,7 @@ input:focus {
 .contact_form {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     row-gap: 16px;
 }
 
@@ -1314,6 +1315,7 @@ input:focus {
     outline: none;
     border: none;
     resize: none;
+    overflow: hidden;
 
     display: flex;
     width: 290px;
