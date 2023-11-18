@@ -26,6 +26,11 @@
 
     }
 
+    .header_nav {
+        top: 71px
+    }
+
+    
     .bottom_header_list {
         padding: 8px;
     }
