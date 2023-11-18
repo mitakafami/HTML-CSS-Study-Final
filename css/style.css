@@ -1382,7 +1382,9 @@ input:focus {
     justify-content: flex-end;
     column-gap: 16px;
 }
-
+.social_media_icon_contact_section {
+    transition: 0.2s linear;
+}
 .social_media_icon_contact_section:hover {
     filter: brightness(1.2);
 }
