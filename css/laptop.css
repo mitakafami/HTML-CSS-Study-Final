@@ -12,7 +12,7 @@
     }
 }
 
-@media (max-width: 1025px) {
+@media (max-width: 1106px) {
     .header_nav {
         background-color: #05BCCA;
         position: fixed;
@@ -68,7 +68,7 @@
 
 
 
-    .section_3, .section_4 {
+    .section_3, .sec_4 {
         padding: 96px 32px;
     }
 
@@ -84,4 +84,15 @@
     .bot_nav_text_2_small:hover:before {
         width: 31px;
     }
+
+    .section_catalog {
+        padding: 96px 21px;
+    }
+
+    .catalogue_guitar_13,
+.catalogue_guitar_14,
+.catalogue_guitar_15,
+.catalogue_guitar_16 {
+    display: none;
+}
 }

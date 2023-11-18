@@ -1,4 +1,4 @@
-@media (max-width: 375px) {
+@media (max-width: 690px) {
 
     .container {
         padding-top: 187.2px;
@@ -80,6 +80,7 @@
     .acoustic_guitar,
     .electric_guitar {
         height: 160px;
+        width: 170px;
     }
 
     #email {
@@ -127,6 +128,28 @@
         font-weight: 700;
         line-height: 32px;
         /* 133.333% */
+    }
+
+    .active_page {
+        padding: 8px;
+    }
+    
+    .active_page_text {
+        color: #2C4246;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+        /* 154.167% */
+    }
+
+
+
+    .previous,
+    .next,
+    .filter_text {
+        display: none;
     }
 
 

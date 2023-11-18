@@ -388,6 +388,7 @@
 .acoustic_guitar,
 .electric_guitar {
     height: 240px;
+    width: 404px;
     background-image: url("../images/acoustic\ guitar.png");
 }
 
@@ -931,6 +932,80 @@ input:focus {
 
 }
 
+.catalogue_guitar_1,
+.catalogue_guitar_2,
+.catalogue_guitar_3,
+.catalogue_guitar_4,
+.catalogue_guitar_5,
+.catalogue_guitar_6,
+.catalogue_guitar_7,
+.catalogue_guitar_8,
+.catalogue_guitar_9,
+.catalogue_guitar_10,
+.catalogue_guitar_11,
+.catalogue_guitar_12,
+.catalogue_guitar_13,
+.catalogue_guitar_14,
+.catalogue_guitar_15,
+.catalogue_guitar_16
+{
+    padding: 8px;
+    background-color: #2C4246;
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    transition: 0.2s linear;
+}
+
+.catalogue_guitar_1:hover,
+.catalogue_guitar_2:hover,
+.catalogue_guitar_3:hover,
+.catalogue_guitar_4:hover,
+.catalogue_guitar_5:hover,
+.catalogue_guitar_6:hover,
+.catalogue_guitar_7:hover,
+.catalogue_guitar_8:hover,
+.catalogue_guitar_9:hover,
+.catalogue_guitar_10:hover,
+.catalogue_guitar_11:hover,
+.catalogue_guitar_12:hover,
+.catalogue_guitar_13:hover,
+.catalogue_guitar_14:hover,
+.catalogue_guitar_15:hover,
+.catalogue_guitar_16:hover {
+    cursor: pointer;
+    box-shadow: 0 0 5px #05BCCA99,
+        0 0 10px #05BCCA99,
+        0 0 15px #05BCCA99,
+        0 0 40px #05BCCA99;
+
+}
+
+.catalogue_guitar_1:active,
+.catalogue_guitar_2:active,
+.catalogue_guitar_3:active,
+.catalogue_guitar_4:active,
+.catalogue_guitar_5:active,
+.catalogue_guitar_6:active,
+.catalogue_guitar_7:active,
+.catalogue_guitar_8:active,
+.catalogue_guitar_9:active,
+.catalogue_guitar_10:active,
+.catalogue_guitar_11:active,
+.catalogue_guitar_12:active,
+.catalogue_guitar_13:active,
+.catalogue_guitar_14:active,
+.catalogue_guitar_15:active,
+.catalogue_guitar_16:active {
+    transition: none;
+    box-shadow: 0 0 5px #05BCCA99,
+        0 0 10px #05BCCA99,
+        0 0 15px #05BCCA99,
+        0 0 40px #05BCCA99,
+        0 0 50px #05BCCA99;
+
+}
+
 .catalog_guitar_cards {
     display: flex;
     flex-wrap: wrap;
@@ -1025,6 +1100,7 @@ input:focus {
     line-height: 24px;
     /* 150% */
 }
+
 
 .page_select_frame {
     display: flex;
