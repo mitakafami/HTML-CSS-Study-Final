@@ -1008,11 +1008,11 @@ input:focus {
 
 .catalog_guitar_cards {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     column-gap: 20px;
     row-gap: 40px;
     /* width: 1252px; */
-    /* border: 2px solid red; */
 }
 
 .active_page {

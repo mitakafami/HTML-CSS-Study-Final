@@ -1,4 +1,4 @@
-@media (max-width: 834px) {
+@media (max-width: 1045px) {
 
     .classical_guitar,
     .base_guitar {
@@ -43,4 +43,13 @@
     .bot_nav_text_2:hover:before {
         width: 57px;
     }
+
+
+
+    .catalogue_guitar_9,
+.catalogue_guitar_10,
+.catalogue_guitar_11,
+.catalogue_guitar_12 {
+    display: none;
+}
 }
