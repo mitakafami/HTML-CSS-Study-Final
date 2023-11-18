@@ -51,7 +51,7 @@
 .header_text_catalogue,
 .header_text_contact {
     color: #A1C3C9;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -238,7 +238,7 @@
 
 .bottom_header_text {
     color: #FFF;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
@@ -285,7 +285,7 @@
 
 .section_1_title {
     color: #FFF;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 32px;
     font-style: normal;
     font-weight: 400;
@@ -296,7 +296,7 @@
 
 .section_1_title_color {
     color: #05BCCA;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 32px;
     font-style: normal;
     font-weight: 400;
@@ -397,7 +397,7 @@
 .acoustic_guitar,
 .electric_guitar {
     color: #F5F5F5;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
@@ -432,7 +432,7 @@
 
 .same_title {
     color: #05BCCA;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
@@ -497,7 +497,7 @@
 
 .same_guitar_text {
     color: #D9D9D9;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -525,7 +525,7 @@
 
 .same_review {
     color: #A1C3C9;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
@@ -535,7 +535,7 @@
 
 .same_price {
     color: #05BCCA;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -660,7 +660,7 @@
 
 .section_4_title {
     color: #C46A2B;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
@@ -696,7 +696,7 @@
 
 .section_4_card_date {
     color: #D9D9D9;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -706,7 +706,7 @@
 
 .section_4_card_title {
     color: #D9D9D9;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -720,7 +720,7 @@
     transition-delay: 0.1s;
     width: 344px;
     color: #D9D9D9;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -742,7 +742,7 @@
 
 .section_4_down_card_text {
     color: #D9D9D9;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -825,7 +825,7 @@
 
 .subscribe_label {
     color: #05BCCA;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
@@ -860,7 +860,7 @@
 
 #email::placeholder {
     color: #A1C3C9;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -873,7 +873,7 @@
     outline: none;
     border: none;
     color: #FFF;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -1022,7 +1022,7 @@ input:focus {
 
 .active_page_text {
     color: #2C4246;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
@@ -1047,7 +1047,7 @@ input:focus {
 
 .filter_text {
     color: rgb(217, 217, 217);
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
@@ -1067,7 +1067,7 @@ input:focus {
 
 .sort_label {
     color: #D9D9D9;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
@@ -1092,7 +1092,7 @@ input:focus {
     background: #A1C3C9;
 
     color: #2C4246;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -1127,7 +1127,7 @@ input:focus {
 
 .previous {
     color: #D9D9D9;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -1153,7 +1153,7 @@ input:focus {
 
 .page_count {
     color: #FFF;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -1178,7 +1178,7 @@ input:focus {
 
 .next {
     color: #D9D9D9;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -1237,7 +1237,7 @@ input:focus {
 .contact_title {
     width: 616px;
     color: #FFF;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
@@ -1266,7 +1266,7 @@ input:focus {
     column-gap: 16px;
 
     color: #D9D9D9;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -1302,7 +1302,7 @@ input:focus {
     background-color: #2C4246;
 
     color: #A1C3C9;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
@@ -1325,7 +1325,7 @@ input:focus {
     background-color: #2C4246;
 
     color: #A1C3C9;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
@@ -1345,7 +1345,7 @@ input:focus {
     background-color: #C46A2B;
 
     color: #FFF;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -1474,7 +1474,7 @@ footer {
 
 .bot_nav_title {
     color: #D9D9D9;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -1508,7 +1508,7 @@ footer {
 .bot_nav_text_big,
 .bot_nav_text_small {
     color: #D9D9D9;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -1574,7 +1574,7 @@ footer {
 .bot_nav_text_2,
 .bot_nav_text_2_small {
     color: #FFF;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -1654,7 +1654,7 @@ footer {
 
 .copyright {
     color: #D9D9D9;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
