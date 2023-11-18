@@ -1708,7 +1708,6 @@ input:focus {
         -ms-flex-direction: column;
             flex-direction: column;
     row-gap: 24px;
-    border: 1px solid greenyellow;
 }
 
 .contact_mail_line,
