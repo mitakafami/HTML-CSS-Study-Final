@@ -947,8 +947,7 @@ input:focus {
 .catalogue_guitar_13,
 .catalogue_guitar_14,
 .catalogue_guitar_15,
-.catalogue_guitar_16
-{
+.catalogue_guitar_16 {
     padding: 8px;
     background-color: #2C4246;
     display: flex;
@@ -1202,6 +1201,176 @@ input:focus {
         0 0 15px rgb(126, 136, 235),
         0 0 20px rgb(126, 136, 235);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contact_section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 96px 94px;
+    row-gap: 40px;
+    width: 1440px;
+    height: 720px;
+    background-image: url("../images/contact\ wallpaper.png");
+    background-position: 50%;
+    background-size: cover;
+}
+
+.contact_title {
+    width: 616px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    /* 133.333% */
+}
+
+.contact_card {
+    display: flex;
+    width: 616px;
+    column-gap: 228px;
+    padding: 35px 40px;
+    background-color: #2C4246;
+    ;
+}
+
+.contact_info_side {
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+}
+
+.contact_mail_line,
+.contact_phone_line {
+    display: flex;
+    column-gap: 16px;
+
+    color: #D9D9D9;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+}
+
+.form_map {
+    display: flex;
+    column-gap: 40px;
+}
+
+.contact_form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+.contact_form_line {
+    display: flex;
+    column-gap: 8px;
+}
+
+#contact_name,
+#contact_email {
+    border: none;
+    outline: none;
+    display: flex;
+    width: 141px;
+    padding: 6px 99px 6px 8px;
+    align-items: center;
+
+    background-color: #2C4246;
+
+    color: #A1C3C9;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 166.667% */
+}
+
+#area {
+    outline: none;
+    border: none;
+    resize: none;
+
+    display: flex;
+    width: 290px;
+    height: 103px;
+    padding: 6px 230px 77px 8px;
+    align-items: center;
+    flex-shrink: 0;
+
+    background-color: #2C4246;
+
+    color: #A1C3C9;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 166.667% */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
