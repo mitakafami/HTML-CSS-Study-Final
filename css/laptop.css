@@ -1,18 +1,26 @@
 
 
-@media (max-width: 1440px) {
+@media (max-width: 1439px) {
     .same_guitar_cards, .news_cards {
         overflow-x: auto;
         overflow-y: hidden;
+        
     }
 
     .cards {
         overflow-x: auto;
         overflow-y: hidden;
     }
+
+    .catalogue_guitar_13,
+    .catalogue_guitar_14,
+    .catalogue_guitar_15,
+    .catalogue_guitar_16 {
+        display: none;
+    }
 }
 
-@media (max-width: 1106px) {
+@media (max-width: 1124px) {
     .header_nav {
         background-color: #05BCCA;
         position: fixed;
@@ -89,10 +97,5 @@
         padding: 96px 21px;
     }
 
-    .catalogue_guitar_13,
-.catalogue_guitar_14,
-.catalogue_guitar_15,
-.catalogue_guitar_16 {
-    display: none;
-}
+
 }

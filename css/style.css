@@ -927,7 +927,7 @@ input:focus {
     display: flex;
     flex-direction: column;
     row-gap: 64px;
-    padding: 96px 62px;
+    padding: 96px 50px;
     background-color: #012426;
 
 }
