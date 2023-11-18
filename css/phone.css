@@ -209,4 +209,70 @@ left: 26.5%;
     width: 57px;
 }
 
+.contact_section {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 96px 6.66%;
+    column-gap: 40px;
+}
+
+.contact_title {
+    width: 295px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+.contact_card {
+    display: flex;
+    width: 295px;
+    column-gap: 24px;
+    padding: 16px 92px;
+    background-color: #2C4246;
+    ;
+}
+
+.contact_mail,
+.contact_phone {
+    display: none;    
+}
+
+.contact_info_side {
+    display: flex;
+    flex-direction: row;
+    column-gap: 24px;
+    row-gap: 0;
+}
+
+.contact_location_icon {
+width: 24px;
+height: 24px;
+}
+
+.form_map {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+
+.contact_form_line {
+    column-gap: 13px;
+}
+
+#name,
+#email {
+    padding: 6px 99px 6px 8px;
+}
+
+#area {
+    width: 295px;
+    padding: 6px 235px 77px 8px;
+}
+
+.social_media_contact_section {
+    justify-content: center;
+}
+
 }

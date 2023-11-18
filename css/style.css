@@ -1228,7 +1228,7 @@ input:focus {
     padding: 96px 6.66%;
     row-gap: 40px;
     /* width: 1440px; */
-    height: 720px;
+    /* height: 720px; */
     background-image: url("../images/contact\ wallpaper.png");
     background-position: 100%;
     background-size: cover;
