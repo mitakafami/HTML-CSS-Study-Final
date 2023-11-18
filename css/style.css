@@ -559,11 +559,13 @@
     row-gap: 64px;
 
 }
+
 .cards {
     display: flex;
     column-gap: 20px;
     position: relative;
 }
+
 .frame {
     width: 404px;
     height: 100px;
@@ -577,6 +579,7 @@
     bottom: 0;
     transition: 0.35s linear;
 }
+
 .card_1:hover .frame,
 .card_2:hover .frame,
 .card_3:hover .frame {
@@ -679,8 +682,7 @@
 
 
 
-.section_4_upper_card {
-}
+.section_4_upper_card {}
 
 .section_4_date_title {
     display: flex;
@@ -900,15 +902,18 @@ form {
     /* color: rgb(126, 136, 235); */
     /* text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff; */
     box-shadow: 0 0 2px rgb(126, 136, 235),
-    0 0 5px rgb(126, 136, 235),
-    0 0 10px rgb(126, 136, 235);
+        0 0 5px rgb(126, 136, 235),
+        0 0 10px rgb(126, 136, 235);
 }
 
-input, select, textarea{
+input,
+select,
+textarea {
     color: #A1C3C9;
 }
 
-textarea:focus, input:focus {
+textarea:focus,
+input:focus {
     color: #A1C3C9;
 }
 
@@ -920,14 +925,40 @@ textarea:focus, input:focus {
 .section_catalog {
     display: flex;
     flex-direction: column;
-    row-gap: 40px;
-    padding: 96px 94px;
-    background-color: #012426;;
+    /* row-gap: 40px; */
+    padding: 96px 62px;
+    background-color: #012426;
 
 }
+
 .catalog_guitars {
     display: flex;
+    flex-wrap: wrap;
     column-gap: 20px;
+    row-gap: 40px;
+    /* width: 1252px; */
+    /* border: 2px solid red; */
+}
+
+.active_page {
+    padding: 18px 24px;
+    border: 1px solid #05BCCA;
+    background: #A1C3C9;
+}
+
+.active_page_text {
+    color: #2C4246;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 37px;
+    /* 154.167% */
+}
+
+.active_page:hover,
+.active_page_text:hover {
+    cursor: default;
 }
 
 
